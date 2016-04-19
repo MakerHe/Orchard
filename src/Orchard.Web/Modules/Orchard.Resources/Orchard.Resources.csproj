@@ -822,6 +822,8 @@
     <Content Include="Styles\jquery-colorbox.min.css" />
     <Content Include="Styles\jquery-datetime-editor.css" />
     <Content Include="Styles\jquery-datetime-editor.min.css" />
+    <Content Include="Styles\jquery-ui.css" />
+    <Content Include="Styles\jquery-ui.min.css" />
     <Content Include="Styles\TimeEntry\jquery.timeentry.css" />
     <Content Include="Styles\TimeEntry\jquery.timeentry.min.css" />
     <Content Include="Web.config" />
@@ -842,10 +844,7 @@
       <Private>false</Private>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Compile Include="Uri.cs" />
     <Compile Include="BlockUI.cs" />
